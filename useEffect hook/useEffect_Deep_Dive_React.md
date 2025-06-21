@@ -171,7 +171,7 @@ useEffect(() => {
 
 ## Pro Tips
 
-- Avoid using `async` directly in `useEffect`. Use an internal async function instead:
+- Avoid using `async` directly in `useEffect` because the function you pass to useEffect must return either undefined or a cleanup function, not a Promise. Use an internal async function instead:
 
 ```jsx
 useEffect(() => {
