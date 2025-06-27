@@ -1,5 +1,5 @@
 
-# 🔼 Lifting State Up in React (Simplified)
+# 🔼 Lifting State Up in React 
 
 ## 🧠 What is "Lifting State Up"?
 
